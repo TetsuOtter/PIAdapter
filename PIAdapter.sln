@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PIAdapter", "PIAdapter\PIAdapter.vcxproj", "{E6918E77-9E5A-45B6-988B-390CC2E89BC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PIAdapter.Adapter", "PIAdapter.Adapter\PIAdapter.Adapter.vcxproj", "{ED2ACF1A-C536-489D-A594-699EEFA941C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EE4044D-0666-4149-9201-3F4323581450}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Debug|ARM.Build.0 = Debug|ARM
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Debug|x64.ActiveCfg = Debug|x64
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Debug|x64.Build.0 = Debug|x64
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Debug|x86.Build.0 = Debug|Win32
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Release|ARM.ActiveCfg = Release|ARM
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Release|ARM.Build.0 = Release|ARM
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Release|x64.ActiveCfg = Release|x64
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Release|x64.Build.0 = Release|x64
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Release|x86.ActiveCfg = Release|Win32
+		{E6918E77-9E5A-45B6-988B-390CC2E89BC7}.Release|x86.Build.0 = Release|Win32
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Debug|ARM.ActiveCfg = Debug|Win32
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Debug|x64.ActiveCfg = Debug|x64
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Debug|x64.Build.0 = Debug|x64
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Debug|x86.Build.0 = Debug|Win32
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Release|ARM.ActiveCfg = Release|Win32
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Release|x64.ActiveCfg = Release|x64
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Release|x64.Build.0 = Release|x64
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Release|x86.ActiveCfg = Release|Win32
+		{ED2ACF1A-C536-489D-A594-699EEFA941C7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47702974-4D4C-4F0B-9C23-9FDD3914EE4B}
+	EndGlobalSection
+EndGlobal
