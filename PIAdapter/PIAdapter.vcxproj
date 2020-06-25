@@ -324,7 +324,7 @@
     <ClInclude Include="PIAdapter.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="atspi.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="dllmain.x86.def" />

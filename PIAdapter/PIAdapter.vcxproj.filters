@@ -23,23 +23,23 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="dllmain.x86.def">
       <Filter>Source</Filter>
     </None>
   </ItemGroup>
-<ItemGroup>
+  <ItemGroup>
     <None Include="dllmain.x64.def">
       <Filter>Source</Filter>
     </None>
   </ItemGroup>
-<ItemGroup>
+  <ItemGroup>
     <None Include="dllmain.ARM.def">
       <Filter>Source</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="atspi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
